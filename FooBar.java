@@ -8,15 +8,12 @@ public class FooBar {
 
             if (i % 2 == 0 && i % 5 == 0) {
                 System.out.println(" FooBar");
-            }
-            else if (i % 2 == 0) {
+            } else if (i % 2 == 0) {
                 System.out.println(" Foo");
-            }
-
-            else if (i % 5 == 0) {
+            } else if (i % 5 == 0) {
                 System.out.println(" Bar");
             }
-            if (i%3 == 0) {
+            if (i % 3 == 0) {
                 System.out.println(" Cep");
             }
         }
