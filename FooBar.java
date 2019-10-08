@@ -4,10 +4,10 @@ public class FooBar {
 
     public static void main(String[] args) {
         //oblicza silnie przez rekurencję
-        System.out.println(silnia(6));
+        System.out.println(silnia(12));
 
         // oblicza silnię w pętli
-        System.out.println(siloop(6));
+        System.out.println(siloop(12));
     }
 
     private static long silnia(long n) {
